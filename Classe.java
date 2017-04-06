@@ -6,11 +6,7 @@ public class Classe {
 	Studente [] studenti = new Studente[30];
 	Professore [] professori = new Professore[10];
 	
-	public Classe() {
-		
-	}
 	public Classe(String nomeClasse, Studente[] studenti, Professore[] professori) {
-		super();
 		this.nomeClasse = nomeClasse;
 		this.studenti = studenti;
 		this.professori = professori;
